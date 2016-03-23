@@ -1,0 +1,10 @@
+Exception: STATUS_ACCESS_VIOLATION at eip=004044BA
+eax=0028ABB0 ebx=0028ABB0 ecx=80000037 edx=00000000 esi=61277518 edi=611A1EDF
+ebp=0028A9E8 esp=0028A9D0 program=C:\Users\jacob\Documents\dropbox\datastructures\hw\hw5\main.exe, pid 6440, thread main
+cs=0023 ds=002B es=002B fs=0053 gs=002B ss=002B
+Stack trace:
+Frame     Function  Args
+0028A9E8  004044BA  (0028ABB0, 0028AA34, 0028ABA8, 0028A8C0)
+0028AC58  00402493  (0000002F, 00000000, 61275608, 61007535)
+0028ACF8  61007535  (00000000, 0028CD78, 61006B20, 00000000)
+End of stack trace
